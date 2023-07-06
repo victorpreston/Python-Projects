@@ -1,4 +1,4 @@
-# python_projects
+# Python-CodeNest
 python training repository
 
 ![](resources/python_image.jpg)
