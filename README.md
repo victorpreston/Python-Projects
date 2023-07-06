@@ -1,7 +1,5 @@
 # Python-CodeNest
-python training repository
-
-![](resources/python_image.jpg)
+![PythonProjects11](https://github.com/victorpreston/Python-CodeNest/assets/112781610/0b88d0ef-b200-45ad-be05-8ae33465e616)
 
 ## Description
 
