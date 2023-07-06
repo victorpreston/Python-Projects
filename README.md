@@ -36,6 +36,7 @@
   When you find out error, don't hesitate to correct it .
   ```mermaid
 flowchart LR
+    Star[Star the repository]-->Fork
     Fork[Fork the project]-->branch[Create a New Branch]
     branch-->Edit[Edit file]
     Edit-->commit[Commit the changes]
