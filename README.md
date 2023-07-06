@@ -2,7 +2,8 @@
 ![PythonProjects11](https://github.com/victorpreston/Python-CodeNest/assets/112781610/0b88d0ef-b200-45ad-be05-8ae33465e616)
 
 ## Description
-
+ Unlock your coding potential with my personally curated Python projects in the Python Playbook repository. Level up your skills now
+ 
  Here in this repository, you will find a set of python projects from simple to complex 
  most of time working in the console and sometime with GUI.
  
