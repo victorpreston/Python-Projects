@@ -30,4 +30,3 @@ would represent a board like this:
 ```
 Now, our goal is to solve our sudoku puzzle using Python! :D
 
-![image](https://user-images.githubusercontent.com/104320194/193804587-780cb986-dbb2-4119-83ad-605f1b03d1fa.png)
