@@ -1,4 +1,4 @@
-# QR Code Generator using python
+# QR Code Generator 
 
 ## What is a QR code?
 
@@ -29,8 +29,8 @@ url = pyqrcode.create(s)
 url.svg("myQr.svg", scale = 8)
 ```
 
-3. View the Qr file that must be save in your current directory
+3. View the Qr file that must be saved in your current directory
 
 ![myQr](https://user-images.githubusercontent.com/67074796/193398963-a7d78e27-3839-45ca-9664-e04ed3708f40.svg)
 
-**Viola you have successfully created a QR code you using python!!**
+**You have successfully created a QR code you using python!!**
