@@ -3,6 +3,7 @@
 
 ## Description
  Unlock your coding potential with my personally curated Python projects in the Python Playbook repository. Level up your skills now
+ 
  Here in this repository, you will find a set of python projects from simple to complex 
  most of time working in the console and sometime with GUI.
  
