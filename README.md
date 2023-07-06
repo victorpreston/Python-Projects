@@ -34,6 +34,14 @@
 
   If you want to help me improve the repository you can fork the project and add you own features or updates then pull request and add me as reviewer
   When you find out error, don't hesitate to correct it .
+  ```mermaid
+flowchart LR
+    Fork[Fork the project]-->branch[Create a New Branch]
+    branch-->Edit[Edit file]
+    Edit-->commit[Commit the changes]
+    commit -->|Finally|creatpr((Create a Pull Request))
+    
+ ```
 
   
   
