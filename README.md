@@ -9,7 +9,7 @@
  
  ## Projects list
  
-* [1. Dice simulator](./1-dice)
+* [1. Dice simulator](https://github.com/victorpreston/Python-CodeNest/tree/master/1-Dice)
 * [2. Dictionary](./2-dicitionary)
 * [3. Hanging man](./3-hangingMan)
 * [4. TicTacToe](./4-ticTactoe)
