@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>textTo Speech</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image:url(:/newPrefix/bg.jpg);
+background-position:center bottom;
+background-repeat:no-repeat;
+background-attachment:fixed;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="appTitle">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>30</y>
+      <width>261</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:calibri;
+font-size:28px;
+font-weight: bold; 
+color:white;
+background:transparent;</string>
+    </property>
+    <property name="text">
+     <string>Text To Speech</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="textTitle">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>110</y>
+      <width>311</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:calibri;
+font-size:20px;
+font-weight: bold; 
+color:white;
+background:transparent;</string>
+    </property>
+    <property name="text">
+     <string>  Write Or Paste Your Text </string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="textArea">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>200</y>
+      <width>361</width>
+      <height>96</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:calibri;
+padding: 8px;
+color:orange;
+font-size:20px;
+border-radius:12px;
+font-weight:bold;
+border-radius:5px;
+border:solid 2px white</string>
+    </property>
+    <property name="plainText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="KPushButton" name="convertBtn">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>330</y>
+      <width>281</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent; 
+background-color:orange; 
+font-weight:bold; 
+font-size:18px;
+color:white;
+</string>
+    </property>
+    <property name="text">
+     <string>Convert To Audio</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>640</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KPushButton</class>
+   <extends>QPushButton</extends>
+   <header>kpushbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="source.qrc"/>
+ </resources>
+ <connections/>
+</ui>
