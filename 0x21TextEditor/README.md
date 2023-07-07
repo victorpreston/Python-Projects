@@ -22,9 +22,7 @@ pip install PyQt5
 ```
 
 ## Screenshot, this is the screenshot of the editor:
-![image](screenshot/Sample.jpg)
 
-#Credit
-This project is made by [Raiyan Hasan](https://github.com/Raiyan101)
+![Screenshot from 2023-07-07 21-37-23](https://github.com/victorpreston/Python-CodeNest/assets/112781610/2c8106b2-b149-46d1-af19-e31e97f4df47)
 
 
