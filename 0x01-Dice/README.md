@@ -1,6 +1,6 @@
 # DICE SIMULATOR
 
-![](https://spikeybits.com/wp-content/uploads/2016/12/Rolling-Dice.jpg)
+![maxresdefault](https://github.com/victorpreston/Python-CodeNest/assets/112781610/47c94ef9-9276-40ec-8f0a-713759220723)
 
 ## What is a dice simulator ?
 
