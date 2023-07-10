@@ -38,10 +38,11 @@
  ## User Guide 
  
    Do you want to try these projects? Just clone the current repository and type the following commands in individual folder:
-   
-    -open in terminal
-    - python3 <mainfilename.py>
-    - And it's all done ! 
+```css   
+   open in terminal
+   python3 <mainfilename.py>
+   And it's all done !
+```
 ## Contributors Guide
 
   If you want to help me improve the repository, you can fork the project and add your own features or updates then pull request and add me as reviewer
