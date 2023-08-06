@@ -38,7 +38,7 @@
  ## User Guide 
  
    Do you want to try these projects? Just clone the current repository and type the following commands in individual folder:
-```css   
+```groovy   
    open in terminal
    python3 <mainfilename.py>
    And it's all done !
