@@ -1,70 +1,69 @@
-""""
-    Program name : Website cloner
-    author : https://github.com/codeperfectplus
-    How to use : Check README.md
- """
-
 import os
 import sys
 import requests
 from bs4 import BeautifulSoup
-
+from urllib.parse import urljoin, urlparse
 
 class CloneWebsite:
-    def __init__(self, website_name):
-        self.website_name = website_name
+    def __init__(self, website_url):
+        self.website_url = website_url
+        self.domain_name = urlparse(website_url).netloc
+        self.visited_urls = set()
 
-    def crawl_website(self):
-        """ This function will crawl website and return content"""
-        content = requests.get(website_name)
-        if content.status_code == 200:
-            return content
+    def get_full_url(self, path):
+        return urljoin(self.website_url, path)
 
-    def create_folder(self):
-        """ This function will create folder for website """
-        folder_name = (website_name.split("/"))[2]
+    def valid_url(self, url):
+        return urlparse(url).netloc == self.domain_name
+
+    def save_content(self, url, path):
         try:
-            os.makedirs(folder_name)
+            response = requests.get(url, stream=True)
+            if response.status_code == 200:
+                os.makedirs(os.path.dirname(path), exist_ok=True)
+                with open(path, 'wb') as file:
+                    for chunk in response.iter_content(chunk_size=8192):
+                        file.write(chunk)
         except Exception as e:
-            print(e)
-        return folder_name
+            print(f"Error saving {url}: {e}")
 
-    def save_website(self):
-        """ This function will save website to respective folder """
-        folder_name = self.create_folder()
-        content = self.crawl_website()
-        with open(
-            f"{folder_name}/index.html", "w", encoding="ascii", errors="ignore"
-        ) as file:
-            file.write(content.text)
+    def crawl_website(self, url=None):
+        if url is None:
+            url = self.website_url
 
-    def save_image(self):
-        folder_name = self.create_folder()
-        os.chdir(folder_name)
-        data = requests.get(website_name).text
-        soup = BeautifulSoup(data, "html.parser")
-        for img in soup.find_all("img"):
-            src = img["src"]
-            print(src)
-            image_name = src.split("/")[-1]
-            path = src.split("/")[:-1]
-            path = "/".join(path)
-            try:
-                os.makedirs(path)
-            except Exception:
-                print("File Exists")
+        if url in self.visited_urls:
+            return
+        self.visited_urls.add(url)
 
-            if "/" == src[:1]:
-                print(src)
-                src = website_name + src
-                img_data = requests.get(src).content
-                with open(f"{path}/{image_name}", "wb") as file:
-                    file.write(img_data)
-                    print("complete")
+        try:
+            response = requests.get(url)
+            if response.status_code != 200:
+                return
+        except Exception as e:
+            print(f"Error accessing {url}: {e}")
+            return
 
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        # Save the current page
+        path = urlparse(url).path
+        if not path.endswith('.html'):
+            path = os.path.join(path, 'index.html')
+        self.save_content(url, os.path.join(self.domain_name, path.lstrip('/')))
+
+        # Extract and save all linked resources
+        for tag, attribute in [('img', 'src'), ('script', 'src'), ('link', 'href'), ('a', 'href')]:
+            for resource in soup.find_all(tag):
+                if attribute in resource.attrs:
+                    resource_url = self.get_full_url(resource[attribute])
+                    if self.valid_url(resource_url):
+                        file_path = os.path.join(self.domain_name, urlparse(resource_url).path.lstrip('/'))
+                        if resource_url.endswith('.html'):
+                            self.crawl_website(resource_url)
+                        else:
+                            self.save_content(resource_url, file_path)
 
 if __name__ == "__main__":
-    website_name = sys.argv[1]
-    clone = CloneWebsite(website_name)
-    clone.save_website()
-    clone.save_image()
+    website_url = sys.argv[1]
+    clone = CloneWebsite(website_url)
+    clone.crawl_website()
