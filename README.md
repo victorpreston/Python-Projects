@@ -11,7 +11,7 @@
  
 | Number | Directory |
 |--------|------|
-| 1      | [Dice simulator](https://github.com/victorpreston/Python-CodeNest/tree/master/0x01-Dice) |
+| 1      | [Dice simulator](./0x01-Dice) |
 | 2      | [Dictionary](https://github.com/victorpreston/Python-CodeNest/tree/master/0x02-Dictionary) |
 | 3      | [Hanging man](https://github.com/victorpreston/Python-CodeNest/tree/master/0x03-HangingMan) |
 | 4      | [TicTacToe](https://github.com/victorpreston/Python-CodeNest/tree/master/0x04-TicTacToe) |
