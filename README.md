@@ -12,26 +12,26 @@
 | Number | Directory |
 |--------|------|
 | 1      | [Dice simulator](./0x01-Dice) |
-| 2      | [Dictionary](https://github.com/victorpreston/Python-CodeNest/tree/master/0x02-Dictionary) |
-| 3      | [Hanging man](https://github.com/victorpreston/Python-CodeNest/tree/master/0x03-HangingMan) |
-| 4      | [TicTacToe](https://github.com/victorpreston/Python-CodeNest/tree/master/0x04-TicTacToe) |
-| 5      | [Conditionals](https://github.com/victorpreston/Python-CodeNest/tree/master/0x05-Conditional) |
-| 6      | [Decrements](https://github.com/victorpreston/Python-CodeNest/tree/master/0x06-Decrement) |
-| 7      | [Face detection](https://github.com/victorpreston/Python-CodeNest/tree/master/0x07-Face_detection) |
-| 8      | [Password generator](https://github.com/victorpreston/Python-CodeNest/tree/master/0x08-Passcode-generator) |
-| 9      | [Shutdown](https://github.com/victorpreston/Python-CodeNest/tree/master/0x09-Shutdown) |
-| 10     | [Simple browser](https://github.com/victorpreston/Python-CodeNest/tree/master/0x10-Simple-browser) |
-| 11     | [Text to speech](https://github.com/victorpreston/Python-CodeNest/tree/master/0x11-Text-to-Speech) |
-| 12     | [Weather finder](https://github.com/victorpreston/Python-CodeNest/tree/master/0x12-Weather-finder) |
-| 13     | [Web server](https://github.com/victorpreston/Python-CodeNest/tree/master/0x13-Web_server) |
-| 14     | [Shuffle](https://github.com/victorpreston/Python-CodeNest/tree/master/0x14-Shuffle) |
-| 15     | [Audio Book](https://github.com/victorpreston/Python-CodeNest/tree/master/0x15-Audio-Book) |
-| 16     | [QR Generator](https://github.com/victorpreston/Python-CodeNest/tree/master/0x16-QR-Generator) |
-| 17     | [Sudoku](https://github.com/victorpreston/Python-CodeNest/tree/master/0x17-Sudoku) |
-| 18     | [URL Web Scrapper](https://github.com/victorpreston/Python-CodeNest/tree/master/0x18-Url-Web-Scraper) |
-| 19     | [Phone Tracker](https://github.com/victorpreston/Python-CodeNest/tree/master/0x19-Phone-Tracker) |
-| 20     | [Automated Mailing](https://github.com/victorpreston/Python-CodeNest/tree/master/0x20-AutomatedMailing) |
-| 21     | [Text Editor](https://github.com/victorpreston/Python-CodeNest/tree/master/0x21TextEditor) |
+| 2      | [Dictionary](./0x02-Dictionary) |
+| 3      | [Hanging man](./0x03-HangingMan) |
+| 4      | [TicTacToe](./0x04-TicTacToe) |
+| 5      | [Conditionals](./0x05-Conditional) |
+| 6      | [Decrements](./0x06-Decrement) |
+| 7      | [Face detection](./0x07-Face_detection) |
+| 8      | [Password generator](./0x08-Passcode-generator) |
+| 9      | [Shutdown](./0x09-Shutdown) |
+| 10     | [Simple browser](./0x10-Simple-browser) |
+| 11     | [Text to speech](./0x11-Text-to-Speech) |
+| 12     | [Weather finder](./0x12-Weather-finder) |
+| 13     | [Web server](./0x13-Web_server) |
+| 14     | [Shuffle](./0x14-Shuffle) |
+| 15     | [Audio Book](./0x15-Audio-Book) |
+| 16     | [QR Generator](./0x16-QR-Generator) |
+| 17     | [Sudoku](./0x17-Sudoku) |
+| 18     | [URL Web Scrapper](./0x18-Url-Web-Scraper) |
+| 19     | [Phone Tracker](./0x19-Phone-Tracker) |
+| 20     | [Automated Mailing](./0x20-AutomatedMailing) |
+| 21     | [Text Editor](./0x21TextEditor) |
 
 
  
