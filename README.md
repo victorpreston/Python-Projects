@@ -39,7 +39,7 @@
  
  ## User Guide 
  
-   Do you want to try these projects? Just clone the current repository and type the following commands in individual folder:
+   > Do you want to try these projects? Just clone the current repository and type the following commands in individual folder:
 ```groovy   
    open in terminal
    python3 <mainfilename.py>
@@ -47,8 +47,8 @@
 ```
 ## Contributors Guide
 
-  If you want to help me improve the repository, you can fork the project and add your own features or updates then pull request and add me as reviewer
-  When you find out error, don't hesitate to correct it .
+  > If you want to help me improve the repository, you can fork the project and add your own features or updates then pull request and add me as reviewer
+  > When you find out error, don't hesitate to correct it .
   ```mermaid
 flowchart LR
     Star[Star the Repository]-->Fork
@@ -59,6 +59,21 @@ flowchart LR
     
  ```
 
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/victorpreston"><img src="https://avatars.githubusercontent.com/u/112781610?v=4?s=100" width="100px;" alt="Victor Preston"/><br /><sub><b>Victor Preston</b></sub></a><br /><a href="https://github.com/quizardhq/frontend/commits?author=victorpreston" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://github.com/dayoonasanya"><img src="https://avatars.githubusercontent.com/u/115120777?v=4?s=100" width="100px;" alt="dayoonasanya"/><br /><sub><b>Adedayo Onasanya</b></sub></a><br /><a href="https://github.com/quizardhq/frontend/commits?author=dayoonasanya" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://linktr.ee/gateremark"><img src="https://avatars.githubusercontent.com/u/92631399?v=4?s=100" width="100px;" alt="Atughara John"/><br /><sub><b>Atughara John</b></sub></a><br /><a href="https://github.com/quizardhq/frontend/commits?author=atugharajohn" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
   
   
 ### Enjoy python!
