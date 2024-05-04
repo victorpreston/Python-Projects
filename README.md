@@ -32,8 +32,8 @@
 | 20     | [Automated Mailing](./0x20-AutomatedMailing) |
 | 21     | [Text Editor](./0x21TextEditor) |
 | 22     | [YouTube Viewer](./0x22-YouTubeViewer) |
-| 21     | [Text Editor](./0x23TextEditor) |
-| 24     | [Text Editor](./0x24TextEditor) |
+| 21     | [Web Cloner](./0x23-WebCloner) |
+| 24     | [Chess Game](./0x24-Chess_Game) |
 
 
  
