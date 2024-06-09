@@ -35,6 +35,9 @@
 | 21     | [Web Cloner](./0x23-WebCloner) |
 | 24     | [Chess Game](./0x24-Chess_Game) |
 | 25     | [Quiz Master](./0x25-QuizMaster) |
+| 26     | [Dice-Simulator](./Dice-Simulator) |
+| 27     | [JSON-to-CSV](./JSON-to-CSV) |
+| 28     | [Memory-Game-Python](./Memory%20Game%20Python) |
 
 
  
@@ -73,6 +76,7 @@ flowchart LR
       <td align="center" valign="top" width="14.28%"><a href="http://github.com/dayoonasanya"><img src="https://avatars.githubusercontent.com/u/115120777?v=4?s=100" width="100px;" alt="dayoonasanya"/><br /><sub><b>Adedayo Onasanya</b></sub></a><br /><a href="https://github.com/victorpreston/Python-Projects/commits?author=dayoonasanya" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/atugharajohn"><img src="https://avatars.githubusercontent.com/u/92631399?v=4?s=100" width="100px;" alt="Atughara John"/><br /><sub><b>Atughara John</b></sub></a><br /><a href="https://github.com/victorpreston/Python-Projects/commits?author=atugharajohn" title="Code">💻</a></td>
      <td align="center" valign="top" width="14.28%"><a href="https://github.com/levoski1"><img src="https://avatars.githubusercontent.com/u/113690452?v=4?s=100" width="100px;" alt="levoski1"/><br /><sub><b>Ugwoke Levi</b></sub></a><br /><a href="https://github.com/victorpreston/Python-Projects/commits?author=levoski1" title="Code">💻</a></td>
+     <td align="center" valign="top" width="14.28%"><a href="https://github.com/Manavalan2517"><img src="https://avatars.githubusercontent.com/u/112639423?v=4?s=100" width="100px;" alt="Manavalan2517"/><br /><sub><b>Manavalan</b></sub></a><br /><a href="https://github.com/victorpreston/Python-Projects/commits?author=Manavalan2517" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
