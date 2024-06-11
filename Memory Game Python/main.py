@@ -9,33 +9,15 @@ user_choices = []
 progress = True
 competed = False
 
-user_choice_data = input("""
-For '2x2' enter "EASY"
-For '4x4' enter "MEDIUM"
-For '6x6' enter "HARD"
-For '8x8' enter "EXTREME"
-
-Enter your choice: """).lower()
-
-while user_choice_data not in ["easy", "medium", "hard", "extreme"]:
-    os.system("cls")
-    user_choice_data = input("""
-For '2x2' enter "EASY"
-For '4x4' enter "MEDIUM"
-For '6x6' enter "HARD"
-For '8x8' enter "EXTREME"
-
-Enter your choice: """).lower()
-
 def game_elements(num):
     
     lst = []
     while len(lst) < num:
         row = []
         while len(row) < num:
-            random_number = random.randint(1,10)
+            random_number = random.randint(65,73)
             if random_number not in row:
-                row.append(random_number)
+                row.append(chr(random_number))
         lst.append(row)
         element = row.copy()
         random.shuffle(element)
@@ -64,7 +46,6 @@ def game_process(num):
                     print(f"{table_heading[char_count]}  |    {list_with_spaces[i][0]}    |    {list_with_spaces[i][1]}    |    {list_with_spaces[i][2]}    |    {list_with_spaces[i][3]}    |")
                     print("   |---------|---------|---------|---------|")
                     char_count += 1
-
         
         if user_choice_data == 6:
                 print("       0       1       2       3       4       5    ")
@@ -74,7 +55,6 @@ def game_process(num):
                     print("   |-------|-------|-------|-------|-------|-------|")
                     char_count += 1
 
-        
         if user_choice_data == 8:
                 print("       0       1       2       3       4       5       6       7    ")
                 print("   |-------|-------|-------|-------|-------|-------|-------|-------|")
@@ -82,7 +62,6 @@ def game_process(num):
                     print(f"{table_heading[char_count]}  |   {list_with_spaces[i][0]}   |   {list_with_spaces[i][1]}   |   {list_with_spaces[i][2]}   |   {list_with_spaces[i][3]}   |   {list_with_spaces[i][4]}   |   {list_with_spaces[i][5]}   |   {list_with_spaces[i][6]}   |   {list_with_spaces[i][7]}   |")
                     print("   |-------|-------|-------|-------|-------|-------|-------|-------|")
                     char_count += 1
-
 
     list_with_spaces = [[' ' for _ in sublist] for sublist in main]
     while progress:
@@ -133,6 +112,24 @@ def game_process(num):
             user_values = []
             temp_found = []
 while True:
+    user_choice_data = input("""
+For '2x2' enter "EASY"
+For '4x4' enter "MEDIUM"
+For '6x6' enter "HARD"
+For '8x8' enter "EXTREME"
+
+Enter your choice: """).lower()
+
+    while user_choice_data not in ["easy", "medium", "hard", "extreme"]:
+        os.system("cls")
+        user_choice_data = input("""
+For '2x2' enter "EASY"
+For '4x4' enter "MEDIUM"
+For '6x6' enter "HARD"
+For '8x8' enter "EXTREME"
+
+Enter your choice: """).lower()
+    
     if user_choice_data == "easy":
         user_choice_data = 2
     if user_choice_data == "medium":
