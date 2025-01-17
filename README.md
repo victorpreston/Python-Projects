@@ -81,6 +81,7 @@ flowchart LR
      <td align="center" valign="top" width="14.28%"><a href="https://github.com/levoski1"><img src="https://avatars.githubusercontent.com/u/113690452?v=4?s=100" width="100px;" alt="levoski1"/><br /><sub><b>Ugwoke Levi</b></sub></a><br /><a href="https://github.com/victorpreston/Python-Projects/commits?author=levoski1" title="Code">💻</a></td>
      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Manavalan2517"><img src="https://avatars.githubusercontent.com/u/112639423?v=4" width="100px;" alt="Manavalan"/><br /><sub><b>Manavalan</b></sub></a><br /><a href="https://github.com/Manavalan2517" title="Code">💻</a></td>
      <td align="center" valign="top" width="14.28%"><a href="http://github.com/P0Saurabh"><img src="https://avatars.githubusercontent.com/u/111894219?v=4?s=100" width="100px;" alt="P0Saurabh"/><br /><sub><b>P0Saurabh</b></sub></a><br /><a href="https://github.com/victorpreston/Python-Projects/commits?author=P0Saurabh" title="Code">💻</a></td>
+     <td align="center" valign="top" width="14.28%"><a href="http://github.com/wcupped"><img src="https://avatars.githubusercontent.com/u/134646828?v=4?s=100" width="100px;" alt="wCupped"/><br /><sub><b>wCupped</b></sub><br />💻</a></td>
     </tr>
   </tbody>
 </table>
