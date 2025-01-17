@@ -8,7 +8,7 @@ def systemOffRestart():
     import os
     print("enter r for restart")
     print("enter s for shutdown")
-    print("enter any key for exot")
+    print("enter any key for exit")
 
     option = input("enter your option")
     if option == "r":
